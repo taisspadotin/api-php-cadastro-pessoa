@@ -1,0 +1,4 @@
+#habilitando a reescrita---------------------------------------------------------
+RewriteEngine On
+
+RewriteRule    ^pessoa/?$    pessoa.php    [QSA,NC,L]
